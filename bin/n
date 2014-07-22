@@ -5,7 +5,7 @@
 #
 
 VERSION="1.2.1"
-N_PREFIX=${N_PREFIX-/usr/local}
+N_PREFIX=${N_PREFIX-$HOME/.n}
 VERSIONS_DIR=$N_PREFIX/n/versions
 UP=$'\033[A'
 DOWN=$'\033[B'
